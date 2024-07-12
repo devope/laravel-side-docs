@@ -1,0 +1,18 @@
+{
+    "name": "Laravel Side Docs",
+    "version": "1.0.0",
+    "icons": {
+        "16": "img/icon.png",
+        "48": "img/icon.png",
+        "128": "img/icon.png"
+    },
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://laravel.com/docs/*"],
+            "css": ["style.css"],
+            "js": ["script.js"]
+        }
+    ],
+    "permissions": ["activeTab"]
+}

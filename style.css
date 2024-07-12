@@ -1,0 +1,91 @@
+/* 
+    Main headlines
+*/
+
+#main-content h2 {
+    font-weight: bold;
+}
+
+
+/* 
+    Left side nav
+*/
+
+.docs_sidebar ul li h2:hover,
+.docs_sidebar ul li a:hover {
+    /* turn off moving */
+    transform: none!important;
+}
+
+.docs_sidebar ul li a {
+    text-decoration: none;
+}
+
+.docs_sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* 
+    Right side nav 
+*/
+
+div#indexContainer {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 12px;
+    z-index: 1;
+    overflow: auto;
+    max-height: 700px;
+    max-width: 250px;
+}
+
+li.laraveldocs-main-li>a {
+    font-weight: bold;
+}
+
+li.laraveldocs-main-li>a:hover {}
+
+li.laraveldocs-main-li>ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Main links */
+
+li.laraveldocs-main-li {
+    margin-bottom: 20px;
+}
+
+li.laraveldocs-main-li:last-child {
+    margin-bottom: 0;
+}
+
+li.laraveldocs-main-li a {
+    text-decoration: none;
+}
+
+li.laraveldocs-main-li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sub-links */
+
+li.laraveldocs-main-li>ul>li {
+    padding: 7px 0;
+    line-height: 14px;
+}
+
+li.laraveldocs-main-li>ul>li a {
+    text-decoration: none;
+}
+
+li.laraveldocs-main-li>ul>li a:hover {
+    text-decoration: underline;
+}
